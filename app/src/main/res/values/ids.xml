@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="first_name" type="id"/>
+    <item name="last_name" type="id"/>
+    <item name="cwid" type="id"/>
+    <item name="add_btn" type="id"/>
+    <item name="prev_btn" type="id"/>
+    <item name="next_btn" type="id"/>
+    <item name="msg_box" type="id"/>
+
+</resources>

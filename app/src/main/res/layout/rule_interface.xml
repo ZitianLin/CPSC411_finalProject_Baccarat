@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16B60A"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Rules: When Player's first two cards total: \n 0, 1, 2, 3, 4, 5= Draws a card\n6,7 = stands\n8,9 = Natural Neither Draws"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Banker Rules:\nWhen the Player stands on 6 or 7,\nthe Banker will always draw on totals\nof 0, 1, 2, 3, 4 and 5\nStands on 6, 7, 8, 9\nWhen the Player does not have a natural, the banker shall draw on the totals of\n0, 1, 2"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="If the banker total is 2 or less, then the banker draws a card, regardless of what the player's third card is. \nIf the banker total is 3, then the banker draws a third card unless the player's third card was an 8.\nIf the banker total is 4, then the banker draws a third card if the player's third card was 2, 3, 4, 5, 6, 7.\nIf the banker total is 5, then the banker draws a third card if the player's third card was 4, 5, 6, or 7.\nIf the banker total is 6, then the banker draws a third card if the player's third card was a 6 or 7.\nIf the banker total is 7, then the banker stands." />
+
+</LinearLayout>
